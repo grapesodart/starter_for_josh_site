@@ -1,0 +1,37 @@
+@media only screen and (max-width:991px) {
+    .article-cent {
+        text-align: center;
+    }
+
+    .article-cent img {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .herobg h1 {
+        float: none;
+        width: 100%;
+        font-size: 5.1em;
+        margin-top: 60%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .herobg {
+        background-position: 30% center
+    }
+}
+
+
+@media only screen and (max-width:505px) {
+    .about-text {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .particle {
+        text-align: center;
+        margin-right: 0;
+    }
+}

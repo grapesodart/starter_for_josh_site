@@ -31,7 +31,6 @@ a:hover {
 .herobg {
     background: url(images/header-bg.jpg);
     background-size: cover;
-    background-position:center center;
 }
 
 .herobg h1 {
