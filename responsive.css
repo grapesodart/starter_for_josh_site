@@ -21,6 +21,17 @@
     .herobg {
         background-position: 30% center
     }
+    
+    .josh {
+        font-size:1.8em;
+    }
+    .orange {
+        font-size:1.8em;
+    }
+    
+    .navbar {
+        margin-top:5px;
+    }
 }
 
 
@@ -33,5 +44,13 @@
     .particle {
         text-align: center;
         margin-right: 0;
+    }
+    
+    .navbar-brand {
+        padding-left:0;
+    }
+    
+    .navbar-toggle {
+        margin-right:0;
     }
 }

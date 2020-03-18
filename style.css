@@ -1,3 +1,14 @@
+/*   
+Theme Name: Josh's Wordpress Site
+Theme URI: http://joshwhitkin.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://joshwhitkin.com
+Version: 1
+*/ 
+
+
+
 body {
     font-size: 16px;
     font-family: arial, sans-serif;
@@ -5,6 +16,7 @@ body {
 
 .navbar {
     font-size: 0.875em;
+    margin-top: 10px;
 }
 
 a {
@@ -26,6 +38,10 @@ a:hover {
 .orange {
     font-size: 2em;
     color: darkorange;
+}
+
+.navbar-toggle .icon-bar {
+    background-color:white;
 }
 
 .herobg {
