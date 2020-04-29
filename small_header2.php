@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-
+    
     <title>
         <?php
 		      if (function_exists('is_tag') && is_tag()) {
@@ -27,11 +27,11 @@
 
     <meta name="description" content="<?php bloginfo('description'); ?>">
 
-
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-    <!-- This is the traditional favicon.
+	<!-- This is the traditional favicon.
 		 - size: 16x16 or 32x32
 		 - transparency is OK -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,800&display=swap" rel="stylesheet"><?php wp_head(); ?>
@@ -57,13 +57,11 @@
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav navbar-right">
-                        <?php wp_nav_menu(array(
-        'menu' => 'Top menu',
-        'items_wrap'=>'%3$s',
-        'container' => false,
-        'list_item_class' => "nav-item",
-        'link_class' => "nav-link",
-        )); ?>
+                        <li class="active"><a href="#">HOME</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">PUBLICATIONS</a></li>
+                        <li><a href="#">CV</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
