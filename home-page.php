@@ -34,7 +34,7 @@
 
                 <img class="img-responsive" alt="<?php the_field('articletitle'); ?>" src="<?php the_field('articleimage'); ?>">
                 <h4><?php the_field('articletitle'); ?></h4>
-                <p><?php the_field('articleexcerpt'); ?> </p>
+                <p><?php the_field('articleexcerpt'); ?></p>
                 <a href="<?php the_field('readmore'); ?>" class="readmore">CONTINUE READING</a>
 
 
@@ -44,7 +44,7 @@
 
                 <img class="img-responsive" alt="<?php the_field('articletitle1'); ?>" src="<?php the_field('articleimage1'); ?>">
                 <h4><?php the_field('articletitle1'); ?></h4>
-                <p><?php the_field('articleexcerpt1'); ?> </p>
+                <p><?php the_field('articleexcerpt1'); ?></p>
                 <a href="<?php the_field('readmore1'); ?>" class="readmore">CONTINUE READING</a>
 
 
@@ -53,7 +53,7 @@
 
                 <img class="img-responsive" alt="<?php the_field('articletitle2'); ?>" src="<?php the_field('articleimage2'); ?>">
                 <h4><?php the_field('articletitle2'); ?></h4>
-                <p><?php the_field('articleexcerpt2'); ?> </p>
+                <p><?php the_field('articleexcerpt2'); ?></p>
                 <a href="<?php the_field('readmore2'); ?>" class="readmore">CONTINUE READING</a>
 
             </div>
