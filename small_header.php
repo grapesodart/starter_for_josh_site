@@ -70,6 +70,5 @@
 
         <div class="container">
             <!-- top section content container -->
-            <h1> Games Design For the Future </h1>
         </div> <!-- end of top section content -->
     </header>
