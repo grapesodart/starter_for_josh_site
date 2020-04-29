@@ -27,11 +27,12 @@
                 </div>
 
                 <div class="col-md-4 article-cent">
-                    <img class="img-responsive" alt="portrait" src="http://206.189.45.97/~mesh12/wp-content/themes/josh_theme_wp_finished/images/article1.jpg">
-                    <h4>A PORTRAIT</h4>
-                    <p class="date">Friday, November 10. 2019</p>
-                    <p>STS has never been shy of seeking new terrains of investigation. More and more STS s cholars are starting to explore and intervene in the arts. This object of study brings new challenges and opportunities that we want to explore in this session. We would like to gather first of all simply new kinds of knowledge arising from STS study of the arts.</p>
-                    <p class="readmore">CONTINUE READING</p>
+<?php $post_id = 9;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>
                 </div> <!-- end of article -->
 
                 <div class="col-md-4 article-cent">
@@ -41,15 +42,15 @@ $queried_post = get_post($post_id);?>
 <h4><?php echo $queried_post->post_title; ?></h4>
 <?php echo $queried_post->post_excerpt; ?>
 <?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?> 
-
                 </div> <!-- end of article -->
 
                 <div class="col-md-4 article-cent">
-                    <img class="img-responsive" alt="game design" src="http://206.189.45.97/~mesh12/wp-content/themes/josh_theme_wp_finished/images/article3.jpg">
-                    <h4>GAMES DESIGN</h4>
-                    <p class="date">Friday, November 10. 2019</p>
-                    <p>STS has never been shy of seeking new terrains of investigation. More and more STS s cholars are starting to explore and intervene in the arts. This object of study brings new challenges and opportunities that we want to explore in this session. We would like to gather first of all simply new kinds of knowledge arising from STS study of the arts. </p>
-                    <p class="readmore">CONTINUE READING</p>
+<?php $post_id = 14;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>
                 </div> <!-- end of article -->
             </div><!-- end of row -->
 
